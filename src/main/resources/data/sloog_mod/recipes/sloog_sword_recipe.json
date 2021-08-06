@@ -1,0 +1,24 @@
+{
+  "group": "sloog_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "sloog_mod:sloog_ingot"
+    },
+    "1": {
+      "item": "sloog_mod:sloog_ingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "sloog_mod:sloog_sword",
+    "count": 1
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:SloogBiome"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:SloogBlock"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "airColor": {
+      "value": 1702100809,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:SloogBlock"
+    },
+    "portalParticles": {
+      "value": "CLOUD"
+    },
+    "portalLuminance": 15,
+    "portalSound": {
+      "value": "CUSTOM:sloog_rattle"
+    },
+    "igniterName": "Sloogifier",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "sloogifier",
+    "portalTexture": "sloogportal",
+    "enablePortal": true
+  }
+}

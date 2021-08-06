@@ -1,0 +1,42 @@
+{
+  "group": "sloog_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sloog_mod:sloog_ingot"
+    },
+    "1": {
+      "item": "sloog_mod:sloog_ingot"
+    },
+    "2": {
+      "item": "sloog_mod:sloog_ingot"
+    },
+    "3": {
+      "item": "sloog_mod:sloog_ingot"
+    },
+    "4": {
+      "item": "sloog_mod:sloog_ingot"
+    },
+    "5": {
+      "item": "sloog_mod:sloog_ingot"
+    },
+    "6": {
+      "item": "sloog_mod:sloog_ingot"
+    },
+    "7": {
+      "item": "sloog_mod:sloog_ingot"
+    },
+    "8": {
+      "item": "sloog_mod:sloog_ingot"
+    }
+  },
+  "result": {
+    "item": "sloog_mod:sloog_block",
+    "count": 1
+  }
+}

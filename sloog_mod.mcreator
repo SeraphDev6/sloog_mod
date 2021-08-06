@@ -1,0 +1,230 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "SloogBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sloog_block"
+    },
+    {
+      "name": "SloogIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sloog_ingot"
+    },
+    {
+      "name": "SloogIngotRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sloog_ingot_recipe"
+    },
+    {
+      "name": "SloogPickaxe",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sloog_pickaxe"
+    },
+    {
+      "name": "SloogPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sloog_pickaxe_recipe"
+    },
+    {
+      "name": "SloogSword",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sloog_sword"
+    },
+    {
+      "name": "SloogSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sloog_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SloogSwordRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sloog_sword_recipe"
+    },
+    {
+      "name": "SloogOre",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sloog_ore"
+    },
+    {
+      "name": "SloogBlockRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sloog_block_recipe"
+    },
+    {
+      "name": "SloogBiome",
+      "type": "biome",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sloog_biome"
+    },
+    {
+      "name": "Angel",
+      "type": "mob",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angel"
+    },
+    {
+      "name": "AngelEntityIsHurt",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angel_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SloogDimension",
+      "type": "dimension",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sloog_dimension",
+      "metadata": {
+        "ep": true
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "sloog_rattle",
+      "files": [
+        "sloog_rattle"
+      ],
+      "category": "master",
+      "subtitle": "sloog rattles"
+    },
+    {
+      "name": "sloog_block",
+      "files": [
+        "sloog_rattle"
+      ],
+      "category": "block",
+      "subtitle": "slooooooooooooog"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "entity.sloog_mod.angel": "Angel",
+      "item.sloog_mod.sloog_pickaxe": "Sloog Pickaxe",
+      "subtitles.sloog_block": "slooooooooooooog",
+      "block.sloog_mod.sloog_block": "Sloog Block",
+      "item.sloog_mod.sloog_sword": "Sloog Sword",
+      "biome.sloog_mod.sloog_biome": "Sloog",
+      "subtitles.sloog_rattle": "sloog rattles",
+      "item.sloog_mod.angel_spawn_egg": "Angel Spawn Egg",
+      "item.sloog_mod.sloog_dimension": "Sloogifier",
+      "block.sloog_mod.sloog_ore": "Sloog Ore",
+      "item.sloog_mod.sloog_ingot": "Sloog Ingot"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "sloog_mod",
+    "modName": "Sloog Mod",
+    "version": "1.0.0",
+    "author": "Code Ninjas, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.sloogmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

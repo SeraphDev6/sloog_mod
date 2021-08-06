@@ -1,0 +1,22 @@
+{
+  "sloog_rattle": {
+    "category": "master",
+    "subtitle": "subtitles.sloog_rattle",
+    "sounds": [
+      {
+        "name": "sloog_mod:sloog_rattle",
+        "stream": false
+      }
+    ]
+  },
+  "sloog_block": {
+    "category": "block",
+    "subtitle": "subtitles.sloog_block",
+    "sounds": [
+      {
+        "name": "sloog_mod:sloog_rattle",
+        "stream": false
+      }
+    ]
+  }
+}
